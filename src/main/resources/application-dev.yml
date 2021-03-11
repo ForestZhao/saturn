@@ -24,7 +24,7 @@ spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driverClassName: com.mysql.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1:3306/saturn?useUnicode=true&characterEncoding=utf8
+    url: jdbc:mysql://127.0.0.1:3306/saturn?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
     username: root
     password: zjs00001
     initialSize: 1
